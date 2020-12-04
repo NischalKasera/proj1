@@ -1,0 +1,22 @@
+CREATE TABLE Points_Table(
+	Pos INT,
+	Team_code VARCHAR(10),
+	Team_name VARCHAR(30),
+	Played INT,
+	Won INT,
+	Lost INT,
+	Tied INT,
+	Points INT,
+	Net_RR DECIMAL(10,3),
+	Primary key (Team_name),
+	Foreign key(Team_code) references team (Team_code)
+);
+
+INSERT INTO Points_Table VALUES('1','MI','MUMBAI INDIANS','14','9','5','0','18','1.107');
+INSERT INTO Points_Table VALUES('2','DC','DELHI CAPITALS','14','8','6','0','16','-0.109');
+INSERT INTO Points_Table VALUES('3','SRH','SUNRISERS HYDERABAD','14','7','7','0','14','0.608');
+INSERT INTO Points_Table VALUES('4','RCB','ROYAL CHALLENGERS BANGALORE','14','7','7','0','14','-0.172');
+INSERT INTO Points_Table VALUES('5','KKR','KOLKATA KNIGHT RIDERS','14','7','7','0','14','-0.214');
+INSERT INTO Points_Table VALUES('6','KXIP','KINGS XI PUNJAB','14','6','8','0','12','-0.162');
+INSERT INTO Points_Table VALUES('7','CSK','CHENNAI SUPER KINGS','14','6','8','0','12','-0.455');
+INSERT INTO Points_Table VALUES('8','RR','RAJASTHAN ROYALS','14','6','8','0','12','-0.569');

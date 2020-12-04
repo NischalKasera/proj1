@@ -1,0 +1,10 @@
+select * from team_owner;
+
+select * from team
+order by owner_id;
+
+select * from points_table
+order by pos;
+
+select * from players
+order by team_code, player_id;

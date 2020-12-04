@@ -1,0 +1,167 @@
+﻿CREATE TABLE Players(
+	Team_code VARCHAR(10),
+	Player_id VARCHAR(10),
+	Player_name VARCHAR(30),
+	Country VARCHAR(20),
+        Player_role VARCHAR(30),
+	Salary VARCHAR(20),
+	Primary key (Player_name)
+);
+
+
+INSERT INTO Players VALUES('MI','MI-01','Suryakumar Yadav','India','Batsman','3.20 crore');
+INSERT INTO Players VALUES('MI','MI-02','Rohit Sharma','India','Batsman','15 crore');
+INSERT INTO Players VALUES('MI','MI-03','Saurabh Tiwary','India','Batsman','50 lakhs');
+INSERT INTO Players VALUES('MI','MI-04','Ishan Kishan','India','Wicket Keeper','6.20 crore');
+INSERT INTO Players VALUES('MI','MI-05','Quinton de Kock','South Africa','Wicket Keeper','2.80 crore');
+INSERT INTO Players VALUES('MI','MI-06','Hardik Pandya','India','All-Rounder','11 crore');
+INSERT INTO Players VALUES('MI','MI-07','Kieron Pollard','West Indies','All-Rounder','5.40 crore');
+INSERT INTO Players VALUES('MI','MI-08','Krunal Pandya','India','All-Rounder','8.80 crore');
+INSERT INTO Players VALUES('MI','MI-09','Rahul Chahar','India','All-Rounder','1.90 crore');
+INSERT INTO Players VALUES('MI','MI-10','Jasprit Bumrah','India','Bowler','7 crore');
+INSERT INTO Players VALUES('MI','MI-11','Jayant Yadav','India','Bowler','50 lakhs');
+INSERT INTO Players VALUES('MI','MI-12','James Pattinson','Australia','Bowler','1 crore');
+INSERT INTO Players VALUES('MI','MI-13','Trent Boult','New Zealand','Bowler','3.20 crore');
+INSERT INTO Players VALUES('MI','MI-14','Nathan Coulter-Nile','Australia','Bowler','8 crore');
+INSERT INTO Players VALUES('MI','MI-15','Dhawal Kulkarni','India','Bowler','75 lakhs');
+
+INSERT INTO Players VALUES('DC','DC-01','Shreyas Iyer','India','Batsman','7 crore');
+INSERT INTO Players VALUES('DC','DC-02','Ajinkya Rahane','India','Batsman','5.25 crore');
+INSERT INTO Players VALUES('DC','DC-03','Prithvi Shaw','India','Batsman','1.20 crore');
+INSERT INTO Players VALUES('DC','DC-04','Shikhar Dhawan','India','Batsman','5.20 crore');
+INSERT INTO Players VALUES('DC','DC-05','Shimron Hetmyer','West Indies','Batsman','7.75 crore');
+INSERT INTO Players VALUES('DC','DC-06','Rishabh Pant','India','Wicket Keeper','15 crore');
+INSERT INTO Players VALUES('DC','DC-07','Alex Carey','Australia','Wicket Keeper','2.40 crore');
+INSERT INTO Players VALUES('DC','DC-08','Marcus Stoinis','Australia','All-Rounder','4.80 crore');
+INSERT INTO Players VALUES('DC','DC-09','Daniel Sams','Australia','Bowler','20 lakhs');
+INSERT INTO Players VALUES('DC','DC-10','Anrich Nortje','South Africa','Bowler','50 price');
+INSERT INTO Players VALUES('DC','DC-11','Avesh Khan','India','Bowler','70 lakhs');
+INSERT INTO Players VALUES('DC','DC-12','Ravichandran Ashwin','India','Bowler','7.60 crore');
+INSERT INTO Players VALUES('DC','DC-13','Axar Patel','India','Bowler','5 crore');
+INSERT INTO Players VALUES('DC','DC-14','Ishant Sharma','India','Bowler','1.10 crore');
+INSERT INTO Players VALUES('DC','DC-15','Kagiso Rabada','South Africa','Bowler','4.20 crore');
+INSERT INTO Players VALUES('DC','DC-16','Mohit Sharma','India','Bowler','50 lakhs');
+INSERT INTO Players VALUES('DC','DC-17','Tushar Deshpande','India','Bowler','20 lakhs');
+INSERT INTO Players VALUES('DC','DC-18','Amit Mishra','India','Bowler','4 crore');
+INSERT INTO Players VALUES('DC','DC-19','Harshal Patel','India','Bowler','20 lakhs');
+
+INSERT INTO Players VALUES('RR','RR-01','Riyan Parag','India','Batsman','20 lakhs');
+INSERT INTO Players VALUES('RR','RR-02','Steve Smith','Australia','Batsman','12.50 crore');
+INSERT INTO Players VALUES('RR','RR-03','Robin Uthappa','India','Batsman','3 crore');
+INSERT INTO Players VALUES('RR','RR-04','Jos Butler','England','Wicket Keeper','4.40 crore');
+INSERT INTO Players VALUES('RR','RR-05','Sanju Samson','India','Wicket Keeper','8 crore');
+INSERT INTO Players VALUES('RR','RR-06','Ben Stokes','England','All-Rounder','12.50 crore');
+INSERT INTO Players VALUES('RR','RR-07','Mahipal Lomror','India','All-Rounder','20 lakhs');
+INSERT INTO Players VALUES('RR','RR-08','Shreyas Gopal','India','All-Rounder','20 lakhs');
+INSERT INTO Players VALUES('RR','RR-09','Yashasvi Jaiswal','India','All-Rounder','2.40 crore');
+INSERT INTO Players VALUES('RR','RR-10','Tom Curran','England','All-Rounder','1 crore');
+INSERT INTO Players VALUES('RR','RR-11','Ankit Rajpoot','India','Bowler','3 crore');
+INSERT INTO Players VALUES('RR','RR-12','Jofra Archer','England','Bowler','7.20 crore');
+INSERT INTO Players VALUES('RR','RR-13','Rahul Tewatia','India','Bowler','3 crore');
+INSERT INTO Players VALUES('RR','RR-14','Varun Aaron','India','Bowler','2.40 crore');
+INSERT INTO Players VALUES('RR','RR-15','Jaydev Unadkat','India','Bowler','3 crore');
+INSERT INTO Players VALUES('RR','RR-16','Kartik Tyagi','India','Bowler','1.30 crore');
+INSERT INTO Players VALUES('RR','RR-17','Andrew Tye','Australia','Bowler','1 crore');
+
+INSERT INTO Players VALUES('CSK','CSK-01','Ambati Rayudu','India','Batsman','2.20 crore');
+INSERT INTO Players VALUES('CSK','CSK-02','Murali Vijay','India','Batsman','2 crore');
+INSERT INTO Players VALUES('CSK','CSK-03','Ruturaj Gaikwad','India','Batsman','20 lakhs');
+INSERT INTO Players VALUES('CSK','CSK-04','MS Dhoni','India','Wicket Keeper','15 crore');
+INSERT INTO Players VALUES('CSK','CSK-05','Dwayne Bravo','West Indies','All-Rounder','6.40 crore');
+INSERT INTO Players VALUES('CSK','CSK-06','Faf du Plessis','South Africa','All-Rounder','1.60 crore');
+INSERT INTO Players VALUES('CSK','CSK-07','Karn Sharma','India','All-Rounder','5 crore');
+INSERT INTO Players VALUES('CSK','CSK-08','Kedar Jadhav','India','All-Rounder','7.80 crore');
+INSERT INTO Players VALUES('CSK','CSK-09','Ravindra Jadeja','India','All-Rounder','7 crore');
+INSERT INTO Players VALUES('CSK','CSK-10','Shane Watson','Australia','All-Rounder','4 crore');
+INSERT INTO Players VALUES('CSK','CSK-11','Sam Curran','England','All-Rounder','5.50 crore');
+INSERT INTO Players VALUES('CSK','CSK-12','Deepak Chahar','India','Bowler','80 lakhs');
+INSERT INTO Players VALUES('CSK','CSK-13','Imran Tahir','South Africa','Bowler','1 crore');
+INSERT INTO Players VALUES('CSK','CSK-14','Lungisani Ngidi','South Africa','Bowler','50 lakhs');
+INSERT INTO Players VALUES('CSK','CSK-15','Mitchell Santner','New Zealand','Bowler','50 lakhs');
+INSERT INTO Players VALUES('CSK','CSK-16','Shardul Thakur','India','Bowler','2.60 crore');
+INSERT INTO Players VALUES('CSK','CSK-17','Piyush Chawla','India','Bowler','6.75 crore');
+INSERT INTO Players VALUES('CSK','CSK-18','Josh Hazlewood','Australia','Bowler','2 crore');
+INSERT INTO Players VALUES('CSK','CSK-19','Jagadeesan Narayan','India','Wicket Keeper','20 lakhs');
+INSERT INTO Players VALUES('CSK','CSK-20','Monu Kumar','India','Batsman','20 lakhs');
+
+INSERT INTO Players VALUES('KKR','KKR-01','Andre Russell','West Indies','Batsman','8.50 crore');
+INSERT INTO Players VALUES('KKR','KKR-02','Kamlesh Nagarkoti','India','Batsman','3.20 crore');
+INSERT INTO Players VALUES('KKR','KKR-03','Lockie Ferguson','New Zealand','Batsman','1.60 crore');
+INSERT INTO Players VALUES('KKR','KKR-04','Nitish Rana','India','Batsman','3.40 crore');
+INSERT INTO Players VALUES('KKR','KKR-05','Rinku Singh','India','Batsman','80 lakhs');
+INSERT INTO Players VALUES('KKR','KKR-06','Shubham Gill','India','Batsman','1.80 crore');
+INSERT INTO Players VALUES('KKR','KKR-07','Eoin Morgan','England','Batsman','5.25 crore');
+INSERT INTO Players VALUES('KKR','KKR-08','Tom Banton','England','Batsman','1 crore');
+INSERT INTO Players VALUES('KKR','KKR-09','Rahul Tripathi','India','Batsman','60 lakhs');
+INSERT INTO Players VALUES('KKR','KKR-10','Dinesh Karthik','India','Wicket Keeper','7.40 crore');
+INSERT INTO Players VALUES('KKR','KKR-11','Sunil Narine','West Indies','All-Rounder','12.50 crore');
+INSERT INTO Players VALUES('KKR','KKR-12','Pat Cummins','Australia','All-Rounder','15.5 crore');
+INSERT INTO Players VALUES('KKR','KKR-13','Shivam Mavi','India','All-Rounder','3 crore');
+INSERT INTO Players VALUES('KKR','KKR-14','Varun Chakaravarthy','India','All-Rounder','4 crore');
+INSERT INTO Players VALUES('KKR','KKR-15','Chris Green','Australia','All-Rounder','20 lakhs');
+INSERT INTO Players VALUES('KKR','KKR-16','Kuldeep Yadav','India','Bowler','5.80 crore');
+INSERT INTO Players VALUES('KKR','KKR-17','Sandeep Warrier','India','Bowler','20 lakhs');
+INSERT INTO Players VALUES('KKR','KKR-18','Prasidh Krishna','India','Batsman','20 lakhs');
+
+INSERT INTO Players VALUES('RCB','RCB-01','Virat Kohli','India','Batsman','17 crore');
+INSERT INTO Players VALUES('RCB','RCB-02','AB de Villiers','South Africa','Batsman','11 crore');
+INSERT INTO Players VALUES('RCB','RCB-03','Devdutt Padikkal','India','Batsman','20 lakhs');
+INSERT INTO Players VALUES('RCB','RCB-04','Gurkeerat Mann Singh','India','Batsman','50 lakhs');
+INSERT INTO Players VALUES('RCB','RCB-05','Aaron Finch','Australia','Batsman','4.40 crore');
+INSERT INTO Players VALUES('RCB','RCB-06','Shivam Dube','India','All-Rounder','5 crore');
+INSERT INTO Players VALUES('RCB','RCB-07','Moeen Ali','England','All-Rounder','1.70 crore');
+INSERT INTO Players VALUES('RCB','RCB-08','Isuru Udana','Sri Lanka','All-Rounder','50 lakhs');
+INSERT INTO Players VALUES('RCB','RCB-08','Christopher Morris','South Africa','All-Rounder','10 crore');
+INSERT INTO Players VALUES('RCB','RCB-10','Adam Zampa','Australia','Bowler','1.5 crore');
+INSERT INTO Players VALUES('RCB','RCB-11','Dale Steyn','South Africa','Bowler','2 crore');
+INSERT INTO Players VALUES('RCB','RCB-12','Mohammed Siraj','India','Bowler','2.60 crore');
+INSERT INTO Players VALUES('RCB','RCB-13','Navdeep Saini','India','Bowler','3 crore');
+INSERT INTO Players VALUES('RCB','RCB-14','Umesh Yadav','India','Bowler','4.20 crore');
+INSERT INTO Players VALUES('RCB','RCB-15','Washington Sundar','India','Bowler','3.20 crore');
+INSERT INTO Players VALUES('RCB','RCB-16','Yuzvendra Chahal','India','Bowler','6 crore');
+INSERT INTO Players VALUES('RCB','RCB-17','Joshua Philippe','Australia','Wicket Keeper','20 lakhs');
+INSERT INTO Players VALUES('RCB','RCB-18','Pravin Dubey','India','Bowler','35 lakhs');
+
+INSERT INTO Players VALUES('SRH','SRH-01','Kane Williamson','New Zealand','Batsman','3 crore');
+INSERT INTO Players VALUES('SRH','SRH-02','Abhishek Sharma','India','Batsman','55 lakhs');
+INSERT INTO Players VALUES('SRH','SRH-03','David Warner','Australia','Batsman','12.50 crore');
+INSERT INTO Players VALUES('SRH','SRH-04','Manish Pandey','India','Batsman','11 crore');
+INSERT INTO Players VALUES('SRH','SRH-05','Priyam Garg','India','Batsman','1.90 crore');
+INSERT INTO Players VALUES('SRH','SRH-06','Jonny Bairstow','England','Wicket Keeper','2.20 crore');
+INSERT INTO Players VALUES('SRH','SRH-07','Wridhhiman Saha','India','Wicket Keeper','1.20 crore');
+INSERT INTO Players VALUES('SRH','SRH-08','Vijay Shankar','India','All-Rounder','3.20 crore');
+INSERT INTO Players VALUES('SRH','SRH-09','Mitchell Marsh','Australia','All-Rounder','2 crore');
+INSERT INTO Players VALUES('SRH','SRH-10','Mohammad Nabi','Afghanistan','All-Rounder','1 crore');
+INSERT INTO Players VALUES('SRH','SRH-11','Abdul Samad','India','All-Rounder','20 lakhs');
+INSERT INTO Players VALUES('SRH','SRH-12','Basil Thampi','India','Bowler','95 lakhs');
+INSERT INTO Players VALUES('SRH','SRH-13','Bhuvneshwar Kumar','India','Bowler','8.50 crore');
+INSERT INTO Players VALUES('SRH','SRH-14','Rashid Khan','Afghanistan','Bowler','9 crore');
+INSERT INTO Players VALUES('SRH','SRH-15','Sandeep Sharma','India','Bowler','3 crore');
+INSERT INTO Players VALUES('SRH','SRH-16','Shahbaz Nadeem','India','Bowler','3.20 crore');
+INSERT INTO Players VALUES('SRH','SRH-17','Siddarth Kaul','India','Bowler','3.80 crore');
+INSERT INTO Players VALUES('SRH','SRH-18','Syed Khaleel Ahmed','India','Bowler','3 crore');
+INSERT INTO Players VALUES('SRH','SRH-19','T Natarajan','India','Bowler','40 lakhs');
+INSERT INTO Players VALUES('SRH','SRH-20','Jason Holder','West Indies','All-Rounder','75 lakhs');
+
+INSERT INTO Players VALUES('KXIP','KXIP-01','Karun Nair','India','Batsman','5.60 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-02','Chris Gayle','West Indies','Batsman','2 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-03','Krishnappa Gowtham','India','Batsman','6.20 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-04','Mayank Agarwal','India','Batsman','1 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-05','Nicholas Pooran','West Indies','Batsman','4.20 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-06','Sarfaraz Khan','India','Batsman','25 lakhs');
+INSERT INTO Players VALUES('KXIP','KXIP-07','Simran Singh','India','Wicket Keeper','55 lakhs');
+INSERT INTO Players VALUES('KXIP','KXIP-08','KL Rahul','India','Wicket Keeper','11 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-09','Mandeep Singh','India','All-Rounder','1.40 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-10','Glenn Maxwell','Australia','All-Rounder','10.75 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-11','Chris Jordan','England','All-Rounder','3 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-12','Deepak Hooda','India','All-Rounder','50 lakhs');
+INSERT INTO Players VALUES('KXIP','KXIP-13','James Neesham','New Zealand','All-Rounder','50 lakhs');
+INSERT INTO Players VALUES('KXIP','KXIP-14','Ravi Bishnoi','India','Bowler','2 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-15','Sheldon Cottrell','West Indies','Bowler','8.50 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-16','Murugan Ashwin','India','Bowler','20 lakhs');
+INSERT INTO Players VALUES('KXIP','KXIP-17','Mujeeb Ur Rahman','Afghanistan','Bowler','4 crore');
+INSERT INTO Players VALUES('KXIP','KXIP-18','Harpreet Brar','India','Bowler','20 lakhs');
+
+
+
+

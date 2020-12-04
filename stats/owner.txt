@@ -1,0 +1,13 @@
+CREATE TABLE Team_Owner(
+	Owner_id VARCHAR(10) primary key,
+	Owner_name TEXT
+);
+
+INSERT INTO Team_Owner VALUES('OWN-1','Chennai Super Kings Cricket Limited');
+INSERT INTO Team_Owner VALUES('OWN-2','Reliance Industries');
+INSERT INTO Team_Owner VALUES('OWN-3','Red Chillies Entertainment and Mehta Group');
+INSERT INTO Team_Owner VALUES('OWN-4','GMR Group and JSW Group');
+INSERT INTO Team_Owner VALUES('OWN-5','Sun TV Network');
+INSERT INTO Team_Owner VALUES('OWN-6','Amisha Hathiramani, Manoj Badale, Lachlan Murdoch, Ryan Tkalcevic, Shane Warne');
+INSERT INTO Team_Owner VALUES('OWN-7','United Spirits');
+INSERT INTO Team_Owner VALUES('OWN-8','Mohit Burman, Ness Wadia, Preity Zinta and Karan Paul');

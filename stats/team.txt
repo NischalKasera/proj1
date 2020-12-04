@@ -1,0 +1,19 @@
+CREATE TABLE Team(
+	Team_code VARCHAR(5),
+	Team_name VARCHAR(30),
+	Captain VARCHAR(30),
+	Owner_id VARCHAR(10),
+	Home_ground TEXT,
+	Primary key (Team_code),
+	Foreign key(Owner_id) references Team_Owner (Owner_id) on delete cascade
+);
+
+
+INSERT INTO Team VALUES('CSK','Chennai Super Kings','MS Dhoni','OWN-1','M.A. Chidambaram Stadium, Chennai');
+INSERT INTO Team VALUES('MI','Mumbai Indians','Rohit Sharma','OWN-2','Wankhede Stadium, Mumbai');
+INSERT INTO Team VALUES('KKR','Kolkata Knight Riders','Eion Morgan','OWN-3','Eden Gardens, Kolkata');
+INSERT INTO Team VALUES('DC','Delhi Capitals','Shreyas Iyer','OWN-4','Arun Jaitley Stadium,Delhi');
+INSERT INTO Team VALUES('SRH','Sunrisers Hyderabad','David Warner','OWN-5','Rajiv Gandhi International Cricket Stadium, Hyderabad');
+INSERT INTO Team VALUES('RR','Rajasthan Royals','Steve Smith','OWN-6','Sawai Mansingh Stadium, Jaipur');
+INSERT INTO Team VALUES('RCB','Royal Challengers Bangalore','Virat Kohli','OWN-7','M. Chinnaswamy Stadium, Bengaluru');
+INSERT INTO Team VALUES('KXIP','Kings XI Punjab','KL Rahul','OWN-8','IS Bindra Stadium, Mohali');
